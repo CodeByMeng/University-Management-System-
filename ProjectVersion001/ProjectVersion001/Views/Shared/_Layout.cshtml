@@ -22,8 +22,7 @@
             <div class="container">
 
            
-               @*@Html.ActionLink("Cyborg University", "Index", "Home", null, new { @class = "i2Style" })*@
-                @*<div class="i2Style">Cyborg Coders</div>*@
+               
             
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -31,7 +30,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    @Html.ActionLink("Ctborg University", "Index", "Home", null, new { @class = "i2Style" })
+                    @Html.ActionLink("Cyborg University", "Index", "Home", null, new { @class = "thumbnail" })
                     
                 </div>
                 <div class="navbar-collapse collapse">
@@ -52,7 +51,7 @@
                             <ul class="dropdown-menu">
                                 <li>@Html.ActionLink("Add Course", "Create", "Courses")</li>
                                 <li>@Html.ActionLink("View Course", "Index", "Courses")</li>
-                                @*<li>@Html.ActionLink("Course", "Index", "Courses")</li>*@
+                                
 
                             </ul>
                         </li>
@@ -139,7 +138,7 @@
             @RenderBody()
             <hr />
             <footer>
-                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+                <p align="right">&copy; @DateTime.Now.Year - Cyborg Coders</p>
             </footer>
         </div>
 
